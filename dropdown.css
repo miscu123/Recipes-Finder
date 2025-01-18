@@ -1,0 +1,43 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.navbar{
+    width: 60%;
+    height: 30px;
+    left: 40%;
+    background-color: transparent;
+    margin: 0px auto;
+
+}
+.navbar ul
+{
+    list-style-type:none;
+}
+.navbar ul li
+{
+    float: left;
+    width: 180px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.navbar ul li a 
+{
+    color: palegoldenrod;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+ 
+}
+.navbar ul li ul li a
+{
+    color: transparent;
+}
+
+.navbar ul li a:hover
+{
+   background-color: red;
+   color: white;
+}
